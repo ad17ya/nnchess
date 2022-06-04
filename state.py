@@ -13,7 +13,8 @@ class State(object):
         return list(self.board.legal_moves)
 
     def value(self):
-        return 1
+        # TODO: add neural network here
+        return 0
 
 
 if __name__ == '__main__':

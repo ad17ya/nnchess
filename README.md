@@ -50,3 +50,13 @@ Traditional way to write a chess engine
  - Search all the legal moves
 
 *Using python-chess library now. 
+
+We need data of chess games in PGN formats 
+Get that from here - https://www.pgnmentor.com/files.html - I will be using Anand's games. 
+
+V = f(state)
+
+V is : 
+    All position where white wins = 1
+    All position where draw = 0
+    All position where black wins = -1
